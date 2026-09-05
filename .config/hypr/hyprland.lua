@@ -114,6 +114,10 @@ hl.bind("XF86AudioPlay",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = tr
 hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = true })
 
 
+-- Screenshot(Noctalia shell)
+
+hl.bind("CTRL + SHIFT + S ",hl.dsp.exec_cmd("noctalia msg screenshot-region"))
+hl.bind("CTRL + S",hl.dsp.exec_cmd("noctalia msg screenshot-fullscreen"))
 --------------------------------
 ---- WINDOWS AND WORKSPACES ----
 --------------------------------
