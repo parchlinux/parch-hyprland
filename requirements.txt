@@ -16,11 +16,11 @@ materia-kde
 materia-gtk-theme
 kitty
 nactalia
-hyprmod
 playerctl
 
 #aur
 
+hyprmod
 qt6ct-kde
 ttf-google-sans
 nerd-fonts-sf-mono
