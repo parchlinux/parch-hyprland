@@ -173,3 +173,19 @@ require("hyprland-gui")
 
 -- For Noctalia Color templates
 require("noctalia").apply_theme()
+
+
+
+
+
+
+hl.window_rule({
+    name = "parch-hyprland-cheatsheet",
+    match = {
+        title = "^Welcome to ParchLinux Hyprland$",
+    },
+    float = true,
+    size = { 860, 570 },
+    min_size = { 860, 570 },
+    center = true,
+})
