@@ -118,6 +118,20 @@ hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = tr
 
 hl.bind("CTRL + SHIFT + S ",hl.dsp.exec_cmd("noctalia msg screenshot-region"))
 hl.bind("CTRL + S",hl.dsp.exec_cmd("noctalia msg screenshot-fullscreen"))
+
+
+-- Layout Switch
+
+hl.bind(mainMod .. " + ALT + E", function()
+    local layout = hl.get_config("general.layout")
+    if layout == "master" then
+        hl.config({ general = { layout = "dwindle" } })
+    elseif layout == "dwindle" then
+        hl.config({ general = { layout = "scrolling" } })
+    else
+        hl.config({ general = { layout = "master" } })
+    end
+end, { desc = "Cycle master/dwindle/scrolling layout" })
 --------------------------------
 ---- WINDOWS AND WORKSPACES ----
 --------------------------------
