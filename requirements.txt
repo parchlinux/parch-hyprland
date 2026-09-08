@@ -5,7 +5,7 @@ xorg-xwayland
 xdg-desktop-portal-hyprland
 hyprland-qt-support
 polkit-kde-agent
-thunar
+dolphin
 qt6-wayland
 qt5-wayland
 kvantum
@@ -17,10 +17,14 @@ materia-gtk-theme
 kitty
 nactalia
 playerctl
+quickshell
+sddm
+gwenview
+elisa
+haruna
 
-#aur
-
+#ParchRepo
+parch-hyprland-cheatsheet
 hyprmod
 qt6ct-kde
 ttf-google-sans
-nerd-fonts-sf-mono

@@ -133,7 +133,7 @@ ForegroundVisited=180,182,216
 [General]
 ColorScheme=Noctalia
 Name=noctalia
-
+TerminalApplication=kitty
 [Icons]
 Theme=Papirus-Dark
 
