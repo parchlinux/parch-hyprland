@@ -1,5 +1,4 @@
 hyprland
-kitty
 cava
 xorg-xwayland
 xdg-desktop-portal-hyprland
@@ -15,7 +14,7 @@ papirus-icon-theme
 materia-kde
 materia-gtk-theme
 kitty
-nactalia
+noctalia
 playerctl
 quickshell
 sddm
