@@ -171,6 +171,22 @@ hl.workspace_rule({
 hl.on("hyprland.start", function()
     hl.exec_cmd("noctalia")
     hl.exec_cmd("qs -p .local/share/quickshell-overview/shell.qml")
+    hl.exec_cmd([[
+    bash -c '
+    {
+        if [ -d /run/archiso/bootmnt ]; then
+            export DISPLAY="${DISPLAY:-:1}"
+            for i in $(seq 1 60); do
+                xhost +si:localuser:root
+                if [ $? -eq 0 ]; then
+                    break
+                fi
+                sleep 0.5
+            done
+        fi
+    }
+    '
+    ]])
 end)
 
 -- HyprMod managed settings
