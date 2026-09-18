@@ -174,7 +174,6 @@ hl.on("hyprland.start", function()
     hl.exec_cmd([[
     bash -c '
     {
-        if [ -d /run/archiso/bootmnt ]; then
             export DISPLAY="${DISPLAY:-:1}"
             for i in $(seq 1 60); do
                 xhost +si:localuser:root
@@ -183,7 +182,6 @@ hl.on("hyprland.start", function()
                 fi
                 sleep 0.5
             done
-        fi
     }
     '
     ]])
