@@ -171,6 +171,8 @@ hl.workspace_rule({
 hl.on("hyprland.start", function()
     hl.exec_cmd("noctalia")
     hl.exec_cmd("qs -p .local/share/quickshell-overview/shell.qml")
+    hl.exec_cmd("xdg-user-dirs-update")
+    hl.exec_cmd("/usr/lib/hyprpolkitagent/hyprpolkitagent")
     hl.exec_cmd([[
     bash -c '
     {
