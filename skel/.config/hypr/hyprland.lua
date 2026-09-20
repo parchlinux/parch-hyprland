@@ -173,20 +173,6 @@ hl.on("hyprland.start", function()
     hl.exec_cmd("qs -p .local/share/quickshell-overview/shell.qml")
     hl.exec_cmd("xdg-user-dirs-update")
     hl.exec_cmd("/usr/lib/hyprpolkitagent/hyprpolkitagent")
-    hl.exec_cmd([[
-    bash -c '
-    {
-            export DISPLAY="${DISPLAY:-:1}"
-            for i in $(seq 1 60); do
-                xhost +si:localuser:root
-                if [ $? -eq 0 ]; then
-                    break
-                fi
-                sleep 0.5
-            done
-    }
-    '
-    ]])
 end)
 
 -- HyprMod managed settings
