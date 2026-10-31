@@ -1,12 +1,11 @@
 pkgname=parch-hyprland-config
 pkgver=1.4
-pkgrel=1
+pkgrel=2
 pkgdesc="Parch Linux Hyprland dotfiles"
 depends=(
     'hyprland'
     'xorg-xwayland'
     'xdg-desktop-portal-hyprland'
-    'polkit-kde-agent'
     'qt6-wayland'
     'qt6ct-kde'
     'kvantum'
