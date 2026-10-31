@@ -1,5 +1,5 @@
 pkgname=parch-hyprland-config
-pkgver=1.4
+pkgver=1.5
 pkgrel=2
 pkgdesc="Parch Linux Hyprland dotfiles"
 depends=(
