@@ -3,7 +3,7 @@
 
 -- Default apps
 local terminal    = "kitty"
-local fileManager = "dolphin"
+local fileManager = "dfiles"
 local menu        = "noctalia msg panel-open launcher"
 
 -- Animations

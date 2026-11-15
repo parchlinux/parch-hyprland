@@ -4,8 +4,6 @@ xorg
 bash-completion
 networkmanager
 parch-grub
-dastore
-shelly
 parch-base-config
 pdm
 parch-welcome
@@ -67,12 +65,7 @@ hyprland-qt-support
 polkit-kde-agent
 qt6-wayland
 qt5-wayland
-kvantum
-kvantum-qt5
-kvantum-theme-materia
 papirus-icon-theme
-materia-kde
-materia-gtk-theme
 kitty
 noctalia
 playerctl

@@ -6,7 +6,7 @@ hl.bind("CTRL + SHIFT + S ",hl.dsp.exec_cmd("noctalia msg screenshot-region"))
 
 
 --Overview toggle
-hl.bind("SUPER + TAB",hl.dsp.exec_cmd("qs -p .local/share/quickshell-overview/shell.qml ipc call overview toggle"))
+hl.bind("SUPER + TAB",hl.dsp.exec_cmd("/usr/bin/parch-hyprland-overview"))
 
 -- Layout Switch
 

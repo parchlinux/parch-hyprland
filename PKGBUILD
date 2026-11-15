@@ -1,6 +1,6 @@
 pkgname=parch-hyprland-config
-pkgver=1.5
-pkgrel=2
+pkgver=1.6
+pkgrel=3
 pkgdesc="Parch Linux Hyprland dotfiles"
 depends=(
     'hyprland'
@@ -8,18 +8,11 @@ depends=(
     'xdg-desktop-portal-hyprland'
     'qt6-wayland'
     'qt6ct-kde'
-    'kvantum'
-    'kvantum-qt5'
-    'kvantum-theme-materia'
     'papirus-icon-theme'
-    'materia-kde'
-    'materia-gtk-theme'
-    'kitty'
     'quickshell'
     'noctalia'
     'playerctl'
     'sddm'
-    'hyprmod'
     'ttf-google-sans'
 )
 arch=('any')
