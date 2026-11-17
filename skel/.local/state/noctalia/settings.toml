@@ -83,7 +83,7 @@ lang = "en"
 screen_time_enabled = true
 
     [shell.launcher]
-    pinned = [ "parch-hyprland-cheatsheet" ]
+    pinned = [ "org.parchlinux.hyprlandcheatsheet" ]
 
     [shell.panel]
     launcher_placement = "attached"
